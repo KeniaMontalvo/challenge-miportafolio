@@ -10,13 +10,13 @@ en las secciones señaladas */
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
-    font-family: 'Raleway';
+    background-color: var(--cor-de-fundo);
     margin: 0;
     padding: 0;
     line-height: 1;
     font-family: 'Raleway', sans-serif;
 }
+
 ol, ul,li {
     list-style: none;
 }
@@ -29,8 +29,7 @@ a{
 
 Lo que es el BEM?
 
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
+BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
 independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
 con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
 
@@ -41,7 +40,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 section.menu{
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
 }
 
 header.menu__header{
@@ -68,15 +67,58 @@ li.menu__list__item{
     margin: 0 10px;
 }
 
-.menu__list li.menu__list__item__contato{
+li.menu__list__item:nth-last-child(2){
     font-weight: bold;
 }
 
-/*Sección Title*/
-
-section.title{
-
+.menu__list li.menu__list__item__contato{
+    display: none;
 }
+
+/*Sección Title*/
+section.title{
+    margin: 80px;
+}
+
+section.title div.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.title__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.title__container h2, h3, ul{
+    margin: 20px;
+}
+
+.title__container h2.title__bio{
+    font-size: 50px;
+}
+
+.title__container h3.title__subsection{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul.title__network{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0;
+}
+
+li.title__network__item{
+    padding-right: 30px;
+}
+
+div.title__div img.title__profile{
+    width: 25%;
+    border-radius: 100%;
+}
+
 
 /*Sección About*/
 
