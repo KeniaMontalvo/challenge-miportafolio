@@ -201,7 +201,30 @@ div.hobbies__box{
 /* Experiencia Académica*/
 
 section.academic{
+    margin-top: 40px;
+    background-color: #FDE5EC;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+div.academic__courses{
+    display: flex;
+}
+
+div.academic__courses__box{
+    display: flex;
+    justify-content: center;
+}
+
+ul.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    width: 250px;
+    padding: 10px;
 }
 
 /* experiencia*/
