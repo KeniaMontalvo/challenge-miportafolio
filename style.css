@@ -292,8 +292,71 @@ button.experience__botao--demo{
 /*Contacto*/
 
 section.formcontato{
-
+    margin: 30px 80px;
 }
+
+div.formcontato__contacto{
+    display: flex;
+}
+
+div.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+div.formcontato__text h3{
+    font-weight: 400;
+    margin: 3px 0;
+    font-size: 17px;
+}
+
+form.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+
+input.formcontato__input{
+    margin: 10px 0;
+    height: 80px;
+    padding-left: 10px;
+    font-size: 13px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+
+input.formcontato__input:focus{
+    border-bottom: 2.5px solid #da4771;
+    outline: none;
+}
+
+textarea.formcontato__textarea{
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    height: 50%;
+}
+
+textarea.formcontato__textarea:focus{
+    border-bottom: 2.5px solid #da4771;
+    outline: none;
+}
+
+button.formcontato__botao{
+    width: 20%;
+    height: 18%;
+    background-color: #da4771;
+    border: 1px solid #da4771;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
 
 /*footeer*/
 
