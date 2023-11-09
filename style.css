@@ -240,7 +240,53 @@ li.academic__courses__item__title h4{
 /* experiencia*/
 
 section.experience{
+    margin: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+div.experiencie__box{
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.experiencie__box:nth-child(3){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.experiencie__box:nth-child(5){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.experience__info{
+    margin: 0 30px;
+}
+
+div.experience__info h2, h3{
+    margin: 10px 0;
+}
+
+div.experience__description button{
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+button.experiencia__botao--repo{
+    border: 1px solid #da4771;
+    color: #da4771;
+    background-color: white;
+}
+
+button.experience__botao--demo{
+    background-color: #da4771;
+    border: 1px solid #da4771;
+    color: white;
 }
 
 /*Contacto*/
