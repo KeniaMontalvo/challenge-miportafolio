@@ -80,7 +80,7 @@ li.menu__list__item:last-child{
 
 /*Sección Title*/
 section.title{
-    margin: 80px;
+    margin: 20px;
 }
 
 section.title div.title__div{
@@ -307,8 +307,11 @@ button.experience__botao--demo{
 /*Contacto*/
 
 section.formcontato{
-    padding: 30px 80px;
+    padding: 20px;
     background-color: #FDE5EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.formcontato__contacto{
@@ -364,8 +367,8 @@ textarea.formcontato__textarea:focus{
 }
 
 button.formcontato__botao{
-    width: 20%;
-    height: 18%;
+    width: 10vw;
+    height: 10vh;
     background-color: #da4771;
     border: 1px solid #da4771;
     color: white;
@@ -417,7 +420,7 @@ section.menu {
 /*title*/
 
 section.title{
-    margin: 40px;
+    margin: 20px;
 }
 
 div.title__div{
@@ -482,11 +485,6 @@ div.experiencie__box:nth-child(5){
 /*Contacto*/
 img.formcontato__img{
     display: none;
-}
-
-button.formcontato__botao{
-    width: 25%;
-    height: 15%;
 }
 
 }
@@ -676,11 +674,6 @@ textarea.formcontato__textarea{
     font-size: 10px;
     height: 50%;
     width: 65vw;
-}
-
-button.formcontato__botao{
-    width: 35%;
-    height: 18%;
 }
 
 /*Footer*/
