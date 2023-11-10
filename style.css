@@ -376,6 +376,7 @@ p.advertencia{
 p.advertencia:last-child{
     color: green;
     font-size: 13px;
+    margin-bottom: 10px;
 }
 
 button.formcontato__botao{
