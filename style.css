@@ -207,7 +207,7 @@ div.hobbies__box{
 section.academic{
     margin-top: 40px;
     background-color: #FDE5EC;
-    padding: 20px 80px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
