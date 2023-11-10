@@ -495,6 +495,7 @@ section.formcontato{
 div.formcontato__contacto{
     display: flex;
     justify-content: center;
+    padding-left: 50px
 }
 
 div.formcontato__text{
