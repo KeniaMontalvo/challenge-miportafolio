@@ -487,6 +487,11 @@ img.formcontato__img{
     display: none;
 }
 
+button.formcontato__botao{
+    width: 25vw;
+    height: 25vh;
+}
+
 }
 
 /*Mobile*/
@@ -681,6 +686,11 @@ textarea.formcontato__textarea{
 section.footer{
     text-align: center;
     margin: 30px 0;
+}
+
+button.formcontato__botao{
+    width: 40vw;
+    height: 30vh;
 }
 
 }
