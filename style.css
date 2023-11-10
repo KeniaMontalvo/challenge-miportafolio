@@ -367,6 +367,17 @@ textarea.formcontato__textarea:focus{
     outline: none;
 }
 
+p.advertencia{
+    font-size: 11px;
+    color: red;
+    margin: 0;
+}
+
+p.advertencia:last-child{
+    color: green;
+    font-size: 13px;
+}
+
 button.formcontato__botao{
     width: 10vw;
     height: 60px;

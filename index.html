@@ -264,12 +264,21 @@
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <form class="formcontato__form" id="form" name="form">
+                        <input class="formcontato__input" type="text" id="name" name="nombre" placeholder="Nombre" maxlength="50">
+                        <p class="advertencia" id="advertenciaNombre"></p>
+
+                        <input class="formcontato__input" type="email" id="email" name="email" placeholder="E-mail">
+                        <p class="advertencia" id="advertenciaEmail"></p>
+
+                        <input class="formcontato__input" type="text" id="topic" name="asunto" placeholder="Asunto" maxlength="50">
+                        <p class="advertencia" id="advertenciaAsunto"></p>
+
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"  maxlength="300"></textarea>
+                        <p class="advertencia" id="advertenciaMensaje"></p>
+
+                        <button type="submit" class="formcontato__botao" id="enviar-btn">Enviar mensaje</button>
+                        <p class="advertencia" id="advertenciaGeneral"></p>
                     </form>
                 </div>
             </div>
