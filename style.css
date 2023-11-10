@@ -483,13 +483,32 @@ div.experiencie__box:nth-child(5){
 }
 
 /*Contacto*/
+section.formcontato{
+    padding: 0;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.formcontato__contacto{
+    display: flex;
+    justify-content: center;
+}
+
+div.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
 img.formcontato__img{
     display: none;
 }
 
 button.formcontato__botao{
-    width: 25vw;
-    height: 25vh;
+    width: 20vw;
+    height: 10vh;
 }
 
 }
@@ -647,22 +666,6 @@ div.experiencie__box{
 
 /*Contacto*/
 
-section.formcontato{
-    padding: 0;
-    width: 90vw;
-}
-
-div.formcontato__contacto{
-    display: flex;
-    justify-content: center;
-}
-
-div.formcontato__text{
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-}
-
 div.formcontato__text h3{
     margin: 3px 0;
     font-size: 13px;
@@ -689,8 +692,8 @@ section.footer{
 }
 
 button.formcontato__botao{
-    width: 40vw;
-    height: 30vh;
+    width: 30vw;
+    height: 10vh;
 }
 
 }
