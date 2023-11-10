@@ -317,13 +317,12 @@ section.formcontato{
 div.formcontato__contacto{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 div.formcontato__text{
     display: flex;
     flex-direction: column;
-    margin: 0 20px;
+    margin: 10px 20px;
 }
 
 div.formcontato__text h3{
@@ -339,7 +338,7 @@ form.formcontato__form{
 
 input.formcontato__input{
     margin: 10px 0;
-    height: 80px;
+    height: 50px;
     padding-left: 10px;
     font-size: 13px;
     border: 1px solid rgb(196, 196, 196);
@@ -370,7 +369,7 @@ textarea.formcontato__textarea:focus{
 
 button.formcontato__botao{
     width: 10vw;
-    height: 10vh;
+    height: 60px;
     background-color: #da4771;
     border: 1px solid #da4771;
     color: white;
@@ -487,9 +486,9 @@ div.experiencie__box:nth-child(5){
 /*Contacto*/
 section.formcontato{
     padding: 0;
-    width: 90vw;
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -502,6 +501,16 @@ div.formcontato__text{
     display: flex;
     flex-direction: column;
     margin: 5px;
+    justify-content: center;
+    width: 80vw;
+}
+
+input.formcontato__input{
+    height: 50px;
+}
+
+textarea.formcontato__textarea{
+    height: 50%;
 }
 
 img.formcontato__img{
@@ -509,8 +518,8 @@ img.formcontato__img{
 }
 
 button.formcontato__botao{
-    width: 20vw;
-    height: 10vh;
+    width: 150px;
+    height: 50px;
 }
 
 }
